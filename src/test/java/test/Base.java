@@ -36,7 +36,7 @@ class Base {
         } else if (r < 0.2) {
             throw new AssumptionViolatedException("skipping");
         }*/
-        println("I am OK\n");
+        sys.println("I am OK\n");
     }
 
 }
